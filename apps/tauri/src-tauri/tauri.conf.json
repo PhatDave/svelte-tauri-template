@@ -51,12 +51,12 @@
       "csp": null
     },
     "updater": {
-      "active": true,
+      "active": false,
       "windows": {
         "installMode": "passive"
       },
       "endpoints": [
-        "<REPO URL>/releases/latest/download/latest.json"
+        "https://github.com/PhatDave/svelte-tauri-template/releases/latest/download/latest.json"
       ],
       "dialog": true,
       "pubkey": "<KEY>"
